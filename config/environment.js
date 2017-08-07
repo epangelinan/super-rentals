@@ -18,6 +18,29 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: 'AIzaSyDVHVRvBt1m48gcDSyFpeFOwG5siuZY5sg',
+      authDomain: 'super-rentals-4dc86.firebaseapp.com',
+      databaseURL: 'https://super-rentals-4dc86.firebaseio.com',
+      storageBucket: 'super-rentals-4dc86.appspot.com'
+    },
+
+
+// <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+// <script>
+//   // Initialize Firebase
+//   var config = {
+//     apiKey: "",
+//     authDomain: "",
+//     databaseURL: "",
+//     projectId: "super-rentals-4dc86",
+//     storageBucket: "",
+//     messagingSenderId: "1083435141423"
+//   };
+//   firebase.initializeApp(config);
+// </script>
+
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
